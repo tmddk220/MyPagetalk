@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.mypagetalk.auth.IntroActivity
+import com.example.mypagetalk.auth.LoginActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +21,7 @@ class SplashActivity : AppCompatActivity() {
         }
 
         Handler().postDelayed({
-            startActivity(Intent(this, IntroActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
             finish()
         }, 3000)
 

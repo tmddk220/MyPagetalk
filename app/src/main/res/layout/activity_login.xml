@@ -51,7 +51,7 @@
                 android:orientation="vertical">
 
                 <EditText
-                    android:id="@+id/editTextTextEmailAddress"
+                    android:id="@+id/emailArea"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:ems="10"
@@ -60,7 +60,7 @@
                     android:textSize="14sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword"
+                    android:id="@+id/passwordArea"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:ems="10"
@@ -79,6 +79,7 @@
                     android:textStyle="bold" />
 
                 <Button
+                    android:id="@+id/findEmailPasswordBtn"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_margin="5dp"

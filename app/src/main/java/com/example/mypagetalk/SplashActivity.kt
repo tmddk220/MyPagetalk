@@ -20,6 +20,7 @@ class SplashActivity : AppCompatActivity() {
             insets
         }
 
+        // splash에서 login으로 화면 전환(3초 딜레이)
         Handler().postDelayed({
             startActivity(Intent(this, LoginActivity::class.java))
             finish()

@@ -35,21 +35,13 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
                 android:layout_margin="30dp"
                 android:orientation="vertical">
 
                 <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:ems="10"
-                    android:hint="사용할 닉네임을 입력하세요"
-                    android:inputType="textEmailAddress"
-                    android:textSize="14sp" />
-
-
-                <EditText
-                    android:id="@+id/editTextTextEmailAddress"
+                    android:id="@+id/emailArea"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:ems="10"
@@ -58,7 +50,7 @@
                     android:textSize="14sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword"
+                    android:id="@+id/passwordArea1"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:ems="10"
@@ -67,42 +59,17 @@
                     android:textSize="14sp" />
 
                 <EditText
-                    android:id="@+id/editTextTextPasswordCheck"
+                    android:id="@+id/passwordArea2"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:ems="10"
                     android:hint="비밀번호를 다시 입력하세요"
                     android:inputType="textPassword"
-                    android:textSize="14sp" />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:ems="10"
-                    android:hint="전화번호를 입력하세요"
-                    android:inputType="textEmailAddress"
-                    android:textSize="14sp" />
-
-                <EditText
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:ems="10"
-                    android:hint="생년월일을 입력하세요"
-                    android:inputType="textEmailAddress"
-                    android:textSize="14sp" />
-
-                <TextView
-                    android:id="@+id/textView"
-                    android:textSize="10sp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="20dp"
-                    android:text="이메일/비밀번호 찾기 시, 생년월일과 휴대폰 번호가 사용되오니
-                    정확한 정보를 입력해 주세요.
-" />
+                    android:textSize="14sp"
+                    android:layout_marginBottom="50dp"/>
 
                 <Button
-                    android:id="@+id/loginBtn"
+                    android:id="@+id/joinBtn"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_margin="5dp"

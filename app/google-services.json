@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1016020650524",
+    "project_id": "pagetalk-f67e0",
+    "storage_bucket": "pagetalk-f67e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1016020650524:android:91770f83c0cae5c7e4edd9",
+        "android_client_info": {
+          "package_name": "com.example.mypagetalk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVU4GWxWUW0OjabSQNtrGcdJUpi8nsKP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

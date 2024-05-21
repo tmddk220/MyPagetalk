@@ -145,7 +145,7 @@
                 android:id="@+id/genre3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="경제경영" />
+                android:text="경제경영 " />
 
             <RadioButton
                 android:id="@+id/genre4"
@@ -168,7 +168,7 @@
                 android:id="@+id/genre5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="소설     " />
+                android:text="소설   " />
 
             <RadioButton
                 android:id="@+id/genre6"
@@ -197,8 +197,8 @@
 
         <LinearLayout
             android:id="@+id/genreGroup3"
-            android:layout_width="462dp"
-            android:layout_height="47dp"
+            android:layout_width="464dp"
+            android:layout_height="31dp"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="@+id/genre"
             app:layout_constraintTop_toBottomOf="@+id/genreGroup2">
@@ -207,13 +207,13 @@
                 android:id="@+id/genre10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="자연과학 " />
+                android:text="자연과학  " />
 
             <RadioButton
                 android:id="@+id/genre11"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="사회과학 " />
+                android:text="사회과학  " />
 
             <RadioButton
                 android:id="@+id/genre12"
@@ -230,8 +230,8 @@
 
         <LinearLayout
             android:id="@+id/genreGroup4"
-            android:layout_width="461dp"
-            android:layout_height="51dp"
+            android:layout_width="464dp"
+            android:layout_height="31dp"
             android:orientation="horizontal"
             app:layout_constraintStart_toStartOf="@+id/genre"
             app:layout_constraintTop_toBottomOf="@+id/genreGroup3">

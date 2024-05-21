@@ -60,4 +60,15 @@
         app:navGraph="@navigation/main_nav"
         android:layout_marginTop="100dp"/>
 
+    //addpost 이미지 버튼
+    <ImageButton
+        android:id="@+id/AddPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoutBtn"
+        app:srcCompat="@drawable/iconsaddpost"
+        tools:layout_editor_absoluteX="184dp" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

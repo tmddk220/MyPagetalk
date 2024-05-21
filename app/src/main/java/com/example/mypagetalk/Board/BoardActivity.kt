@@ -10,7 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.mypagetalk.R
 
-
+//주석
 class BoardActivity : AppCompatActivity() {
 
     private var selectedRadioButtonId: Int = -1

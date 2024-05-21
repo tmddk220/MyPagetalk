@@ -61,14 +61,16 @@
         android:layout_marginTop="100dp"/>
 
     //addpost 이미지 버튼
+
     <ImageButton
         android:id="@+id/AddPost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logoutBtn"
-        app:srcCompat="@drawable/iconsaddpost"
-        tools:layout_editor_absoluteX="184dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/iconsaddpost" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/addFragment">
+
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="com.example.mypagetalk.fragments.AddFragment"
+        android:label="fragment_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/findFragment"
+        android:name="com.example.mypagetalk.fragments.FindFragment"
+        android:label="fragment_find"
+        tools:layout="@layout/fragment_find" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.mypagetalk.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/myaccountFragment"
+        android:name="com.example.mypagetalk.fragments.MyaccountFragment"
+        android:label="fragment_myaccount"
+        tools:layout="@layout/fragment_myaccount" />
+</navigation>
